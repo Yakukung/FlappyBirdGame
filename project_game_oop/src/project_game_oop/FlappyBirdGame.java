@@ -163,6 +163,7 @@ public class FlappyBirdGame extends JPanel implements ActionListener {
                 pipes.remove(i);
                 score++;
                 playScoreSound();
+                
             }
 
             if (bird.checkCollision(pipe)) {
